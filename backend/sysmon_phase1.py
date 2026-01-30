@@ -71,3 +71,4 @@ df.to_csv("sysmon_predictions.csv", index=False)
 
 print("Total anomalies detected:", df["anomaly_flag"].sum())
 print("Output saved as sysmon_predictions.csv")
+

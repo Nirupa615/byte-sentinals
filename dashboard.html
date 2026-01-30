@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sysmon Dashboard | Phase-1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+<div class="container">
+
+  <h1 class="glow">🛡️ Sysmon Anomaly Detection</h1>
+  <p class="subtitle">Phase-1 Proof of Concept (Offline)</p>
+
+  <!-- UPLOAD -->
+  <div class="card">
+    <h2>📂 Upload Sysmon Logs</h2>
+    <input type="file">
+    <button onclick="analyze()">Analyze Logs</button>
+  </div>
+
+  <!-- SUMMARY BUTTON -->
+  <div id="summaryBtn" class="icon-box glow hidden" onclick="showSummary()">
+    📊 View Summary
+  </div>
+
+  <!-- SUMMARY -->
+  <div id="summary" class="hidden">
+    <div class="summary-cards">
+      <div class="summary-card">
+        <h3>Total Logs</h3>
+        <p>278</p>
+      </div>
+      <div class="summary-card danger glow-red">
+        <h3>Anomalies</h3>
+        <p>7</p>
+      </div>
+      <div class="summary-card">
+        <h3>Mode</h3>
+        <p>Offline</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TABLE BUTTON -->
+  <div id="tableBtn" class="icon-box red glow hidden" onclick="showTable()">
+    🚨 Show Suspicious Activities
+  </div>
+
+  <!-- TABLE -->
+  <div id="tableSection" class="hidden">
+    <table>
+  <tr>
+    <th>Time</th>
+    <th>Process</th>
+    <th>Event</th>
+    <th>Risk Score</th>
+    <th>Severity</th>
+  </tr>
+
+  <!-- 1 -->
+  <tr class="alert high">
+    <td>22:30</td><td>svchost.exe</td><td>Network</td>
+    <td><div class="risk-bar high" style="width:92%">92</div></td>
+    <td>High</td>
+  </tr>
+
+  <!-- 2 -->
+  <tr class="alert high">
+    <td>23:10</td><td>cmd.exe</td><td>Network</td>
+    <td><div class="risk-bar high" style="width:84%">84</div></td>
+    <td>High</td>
+  </tr>
+
+  <!-- 3 -->
+  <tr class="alert high">
+    <td>00:55</td><td>temp.exe</td><td>File</td>
+    <td><div class="risk-bar high" style="width:88%">88</div></td>
+    <td>High</td>
+  </tr>
+
+  <!-- 4 -->
+  <tr class="alert medium">
+    <td>01:15</td><td>powershell.exe</td><td>Process</td>
+    <td><div class="risk-bar medium" style="width:66%">66</div></td>
+    <td>Medium</td>
+  </tr>
+
+  <!-- 5 -->
+  <tr class="alert medium">
+    <td>02:40</td><td>svchost.exe</td><td>Process</td>
+    <td><div class="risk-bar medium" style="width:58%">58</div></td>
+    <td>Medium</td>
+  </tr>
+
+  <!-- 6 -->
+  <tr class="alert medium">
+    <td>03:45</td><td>update.exe</td><td>File</td>
+    <td><div class="risk-bar medium" style="width:45%">45</div></td>
+    <td>Medium</td>
+  </tr>
+
+  <!-- 7 (LOW RISK ANOMALY) -->
+  <tr class="alert low">
+    <td>04:10</td><td>wscript.exe</td><td>Script</td>
+    <td><div class="risk-bar low" style="width:32%">32</div></td>
+    <td>Low</td>
+  </tr>
+
+</table>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

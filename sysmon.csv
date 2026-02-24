@@ -1,3 +1,282 @@
+EventID,UtcTime,Image,ParentImage,DestinationPort,TargetFilename
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+1,10-01-2025 22:30,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+3,10-01-2025 22:30,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 22:30,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\payload.exe
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,,4444,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,11-01-2025 01:15,C:\Users\User\AppData\Local\Temp\powershell.exe,C:\Windows\System32\cmd.exe,,
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
+3,10-01-2025 10:17,C:\Users\User\AppData\Local\Temp\svchost.exe,,443,
+11,10-01-2025 10:18,C:\Users\User\AppData\Local\Temp\svchost.exe,,,C:\Users\User\Documents\invoice.exe
+1,10-01-2025 09:10,C:\Windows\System32\notepad.exe,C:\Windows\explorer.exe,,
+3,11-01-2025 01:15,C:\Users\User\AppData\Local\Temp\powershell.exe,,1337,
+3,10-01-2025 09:11,C:\Program Files\Google\Chrome\Application\chrome.exe,,443,
+11,10-01-2025 09:12,C:\Windows\System32\notepad.exe,,,C:\Temp\notes.txt
+1,10-01-2025 09:20,C:\Windows\System32\calc.exe,C:\Windows\explorer.exe,,
+1,11-01-2025 03:45,C:\Users\User\AppData\Roaming\update.exe,C:\Windows\System32\explorer.exe,,
+3,10-01-2025 09:21,C:\Program Files\Google\Chrome\Application\chrome.exe,,442,
+1,10-01-2025 09:30,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,C:\Windows\explorer.exe,,
+11,10-01-2025 09:31,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,,,C:\Users\User\Documents\report.docx
+1,10-01-2025 09:40,C:\Windows\System32\mspaint.exe,C:\Windows\explorer.exe,,
+11,10-01-2025 09:41,C:\Windows\System32\mspaint.exe,,,C:\Users\User\Pictures\image.png
+1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
+3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
+11,11-01-2025 03:45,C:\Users\User\AppData\Roaming\update.exe,,,C:\Users\User\Documents\update.exe
+=======
 ﻿EventID,UtcTime,Image,ParentImage,DestinationPort,TargetFilename
 1,10-01-2025 10:15,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
 1,10-01-2025 10:16,C:\Users\User\AppData\Local\Temp\svchost.exe,C:\Windows\System32\cmd.exe,,
@@ -276,3 +555,4 @@
 1,10-01-2025 09:50,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,,
 3,10-01-2025 09:50,C:\Windows\System32\cmd.exe,,80,
 11,11-01-2025 03:45,C:\Users\User\AppData\Roaming\update.exe,,,C:\Users\User\Documents\update.exe
+>>>>>>> 3e11f98ab7e2d09cb55fff6d06e66eee974b8f7a

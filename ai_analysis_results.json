@@ -1,0 +1,63 @@
+{
+  "threat_summary": {
+    "total_events": 277,
+    "anomalies": 6,
+    "high_risk": 3,
+    "medium_risk": 18,
+    "low_risk": 256,
+    "most_active_threats": [
+      [
+        "Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\",
+        5
+      ],
+      [
+        "Process reputation: high_risk",
+        3
+      ],
+      [
+        "Suspicious file type: \\.exe$",
+        2
+      ],
+      [
+        "Process reputation: medium_risk",
+        2
+      ],
+      [
+        "Possible backdoor",
+        1
+      ]
+    ]
+  },
+  "sample_explanations": [
+    {
+      "UtcTime": "10-01-2025 22:30",
+      "Image": "C:\\Users\\User\\AppData\\Local\\Temp\\svchost.exe",
+      "risk_score": 79,
+      "ai_explanation": "\ud83d\udea8 **CRITICAL THREAT DETECTED**: svchost.exe is exhibiting highly suspicious behavior.\nThe activity involves Process reputation: high_risk, Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\ which are commonly associated with malware campaigns.\nImmediate investigation recommended. This pattern matches known attack techniques: T1083 - File and Directory Discovery.\n\ud83d\udd50 **Timestamp**: 10-01-2025 22:30\n\ud83c\udfaf **AI Confidence**: 70.0%"
+    },
+    {
+      "UtcTime": "10-01-2025 22:30",
+      "Image": "C:\\Users\\User\\AppData\\Local\\Temp\\svchost.exe",
+      "risk_score": 100,
+      "ai_explanation": "\ud83d\udea8 **CRITICAL THREAT DETECTED**: svchost.exe is exhibiting highly suspicious behavior.\nThe activity involves Process reputation: high_risk, Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\, Possible backdoor which are commonly associated with malware campaigns.\nImmediate investigation recommended. This pattern matches known attack techniques: T1083 - File and Directory Discovery.\n\ud83d\udd50 **Timestamp**: 10-01-2025 22:30\n\ud83c\udfaf **AI Confidence**: 90.0%"
+    },
+    {
+      "UtcTime": "10-01-2025 22:30",
+      "Image": "C:\\Users\\User\\AppData\\Local\\Temp\\svchost.exe",
+      "risk_score": 70,
+      "ai_explanation": "\ud83d\udea8 **CRITICAL THREAT DETECTED**: svchost.exe is exhibiting highly suspicious behavior.\nThe activity involves Process reputation: high_risk, Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\, Suspicious file type: \\.exe$ which are commonly associated with malware campaigns.\nImmediate investigation recommended. This pattern matches known attack techniques: T1083 - File and Directory Discovery.\n\ud83d\udd50 **Timestamp**: 10-01-2025 22:30\n\ud83c\udfaf **AI Confidence**: 90.0%"
+    },
+    {
+      "UtcTime": "11-01-2025 01:15",
+      "Image": "C:\\Users\\User\\AppData\\Local\\Temp\\powershell.exe",
+      "risk_score": 54,
+      "ai_explanation": "\u26a0\ufe0f **SUSPICIOUS ACTIVITY**: powershell.exe behavior requires attention.\nDetected Process reputation: medium_risk, Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\ that could indicate potential security concerns.\nMonitor this activity closely. Related MITRE techniques: T1083 - File and Directory Discovery.\n\ud83d\udd50 **Timestamp**: 11-01-2025 01:15\n\ud83c\udfaf **AI Confidence**: 70.0%"
+    },
+    {
+      "UtcTime": "11-01-2025 01:15",
+      "Image": "C:\\Users\\User\\AppData\\Local\\Temp\\powershell.exe",
+      "risk_score": 50,
+      "ai_explanation": "\u26a0\ufe0f **SUSPICIOUS ACTIVITY**: powershell.exe behavior requires attention.\nDetected Process reputation: medium_risk, Suspicious path pattern: \\\\AppData\\\\Local\\\\Temp\\\\, Common malware port that could indicate potential security concerns.\nMonitor this activity closely. Related MITRE techniques: T1083 - File and Directory Discovery.\n\ud83d\udd50 **Timestamp**: 11-01-2025 01:15\n\ud83c\udfaf **AI Confidence**: 90.0%"
+    }
+  ]
+}

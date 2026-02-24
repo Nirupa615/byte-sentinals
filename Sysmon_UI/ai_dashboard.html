@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🤖 AI-Powered Sysmon Dashboard | Phase-1</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .ai-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      color: white;
+    }
+    .chat-container {
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 15px;
+      backdrop-filter: blur(10px);
+    }
+    .chat-input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      background: rgba(255,255,255,0.9);
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    .chat-messages {
+      max-height: 300px;
+      overflow-y: auto;
+      margin: 15px 0;
+    }
+    .ai-message {
+      background: rgba(255,255,255,0.2);
+      padding: 10px;
+      border-radius: 10px;
+      margin: 5px 0;
+      animation: slideIn 0.3s ease;
+    }
+    .ai-explanation {
+      background: rgba(255,255,255,0.05);
+      border-left: 4px solid #00ff88;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .threat-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: bold;
+      margin: 2px;
+    }
+    .threat-critical { background: #ff4757; }
+    .threat-high { background: #ff6348; }
+    .threat-medium { background: #ffa502; }
+    .threat-low { background: #2ed573; }
+    .ai-insights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .insight-card {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+    .insight-number {
+      font-size: 2em;
+      font-weight: bold;
+      color: #00ff88;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .ai-toggle {
+      background: linear-gradient(45deg, #00ff88, #00d4ff);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: #1a1a2e;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+    .ai-toggle:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(0,255,136,0.4);
+    }
+  </style>
+</head>
+
+<body class="dark">
+<div class="container">
+
+  <h1 class="glow">🤖 AI-Powered Sysmon Anomaly Detection</h1>
+  <p class="subtitle">Enhanced with Generative AI & Threat Intelligence</p>
+
+  <!-- UPLOAD -->
+  <div class="card">
+    <h2>📂 Upload Sysmon Logs</h2>
+    <input type="file" id="fileInput">
+    <button onclick="analyzeWithAI()">🚀 AI-Analyze Logs</button>
+    <button onclick="runLocalAI()" class="ai-toggle">🧠 Run Local AI Analysis</button>
+  </div>
+
+  <!-- AI INSIGHTS -->
+  <div id="aiInsights" class="ai-section hidden">
+    <h2>🎯 AI Threat Intelligence</h2>
+    <div class="ai-insights">
+      <div class="insight-card">
+        <div class="insight-number" id="totalEvents">0</div>
+        <div>Total Events</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-number" id="anomaliesDetected">0</div>
+        <div>Anomalies</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-number" id="highRiskEvents">0</div>
+        <div>High Risk</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-number" id="aiConfidence">0%</div>
+        <div>AI Confidence</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI CHAT ASSISTANT -->
+  <div id="aiChat" class="ai-section hidden">
+    <h2>🤖 AI Security Assistant</h2>
+    <p>Ask me anything about your security data!</p>
+    <div class="chat-container">
+      <div class="chat-messages" id="chatMessages">
+        <div class="ai-message">👋 Hello! I'm your AI security assistant. Ask me about anomalies, threats, or security patterns.</div>
+      </div>
+      <input type="text" class="chat-input" id="chatInput" placeholder="Ask: 'How many anomalies?' or 'Show high risk events'" onkeypress="handleChatInput(event)">
+      <button onclick="sendChatMessage()" class="ai-toggle">Send Query</button>
+    </div>
+  </div>
+
+  <!-- SUMMARY BUTTON -->
+  <div id="summaryBtn" class="icon-box glow hidden" onclick="showSummary()">
+    📊 View AI-Enhanced Summary
+  </div>
+
+  <!-- SUMMARY -->
+  <div id="summary" class="hidden">
+    <div class="summary-cards">
+      <div class="summary-card">
+        <h3>Total Logs</h3>
+        <p id="totalLogs">0</p>
+      </div>
+      <div class="summary-card danger glow-red">
+        <h3>AI-Detected Anomalies</h3>
+        <p id="anomalyCount">0</p>
+      </div>
+      <div class="summary-card">
+        <h3>Analysis Mode</h3>
+        <p>🤖 AI-Enhanced</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI EXPLANATIONS BUTTON -->
+  <div id="aiExplanationBtn" class="icon-box glow hidden" onclick="showAIExplanations()">
+    🧠 View AI Explanations
+  </div>
+
+  <!-- AI EXPLANATIONS -->
+  <div id="aiExplanations" class="hidden">
+    <h2>🧠 AI-Generated Threat Explanations</h2>
+    <div id="explanationsList"></div>
+  </div>
+
+  <!-- TABLE BUTTON -->
+  <div id="tableBtn" class="icon-box red glow hidden" onclick="showTable()">
+    🚨 Show AI-Analyzed Threats
+  </div>
+
+  <!-- TABLE -->
+  <div id="tableSection" class="hidden">
+    <table id="threatsTable">
+      <tr>
+        <th>Time</th>
+        <th>Process</th>
+        <th>Event</th>
+        <th>AI Risk Score</th>
+        <th>Threat Level</th>
+        <th>AI Insights</th>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="ai_features.js"></script>
+</body>
+</html>
